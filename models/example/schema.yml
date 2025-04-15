@@ -6,7 +6,7 @@ models:
       description: "A starter dbt model"
       columns:
           - name: id
-            description: "second git commit"
+            description: "secondmain git commit"
             tests:
                 - unique
                 - not_null
