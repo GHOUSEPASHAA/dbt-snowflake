@@ -1,6 +1,6 @@
 {{ config(materialized='table') }}
 
--- Staging raw data from the source table 'MYDB.STAGING.TIMESERIES'
+
 with raw_data as (
     select 
         PERSON_KEY,
@@ -36,5 +36,5 @@ with raw_data as (
     from {{source('MYDB','TIMESERIES')}}
 )
 
--- Select raw data for staging without transformations
+
 select * from raw_data
