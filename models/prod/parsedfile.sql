@@ -32,7 +32,7 @@ with raw_data as (
         PLAYER_VALUE_90,
         PLAYER_VALUE_118,
         PLAYER_VALUE_365
-    from MYDB.STAGING.TIMESERIES
+    from {{source('MYDB','TIMESERIES')}}
 ),
 
 parsed_data as (

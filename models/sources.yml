@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: MYDB
+    schema: RAW
+    tables:
+      - name: TIMESERIES
+        identifier: timeseries
+
+      
