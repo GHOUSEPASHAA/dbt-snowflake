@@ -6,6 +6,18 @@ sources:
     tables:
       - name: TIMESERIES
         identifier: timeseries
+      - name: SOURCE_ORG
+        identifier: source_org
+      - name: DIM_ORG_TYPE
+        identifier: dim_org_type
+      - name: DWH_DIM_ORG
+        identifier: dwh_dim_org
+      - name: DIM_USER
+        identifier: dim_user
+      - name: LCM_USER
+        identifier: lcm_user
+        
+
     
 
       
